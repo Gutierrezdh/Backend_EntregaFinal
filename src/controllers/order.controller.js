@@ -83,7 +83,7 @@ class OrderController {
         );
         sendMailTo(
           newOrder.buyer_email,
-          "Compraste en Tiendita",
+          "Compraste en Mi Tienda",
           `Tu compra se ha realizado correctamente. Tu número de orden es ${newOrder._id}`
         );
         res.status(200);
