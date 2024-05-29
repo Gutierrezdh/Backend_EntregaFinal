@@ -1,0 +1,63 @@
+/* Efecto de escala al pasar el mouse sobre las tarjetas de producto */
+.product_card:hover {
+  transform: scale(1.0125);
+}
+
+/* Cambio de color de fondo al pasar el mouse sobre los botones de categoría */
+.category_button:hover {
+  background-color: #2f343a !important;
+}
+
+/* Tamaño del texto de los botones del carrito */
+.cart_button {
+  font-size: 0.85rem;
+}
+
+/* Cambio de color al pasar el mouse sobre los botones del carrito */
+.cart_button:hover {
+  color: #a82431 !important;
+}
+
+/* Transición de todos los botones del sitio */
+.site_button {
+  transition: all 0.3s ease;
+}
+
+/* Cambio de color de fondo y texto al pasar el mouse sobre los botones del sitio */
+.site_button:hover {
+  background-color: #212529;
+  color: #fff;
+}
+
+/* Transición de color para los botones de opciones de mensaje */
+.message-options__button {
+  color: #212529;
+  transition: color 0.3s ease;
+}
+
+/* Cambio de color al pasar el mouse sobre los botones de opciones de mensaje */
+.message-options__button:hover {
+  color: #606469;
+}
+
+/* Estilo básico para el botón de chat */
+.chat_button {
+  padding-inline: 1rem;
+  border: none;
+  width: fit-content;
+  height: 40px;
+  border-radius: 1rem;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambio de color de fondo al pasar el mouse sobre el botón de chat */
+.chat_button:hover {
+  background-color: #a82431 !important;
+}
+
+/* Estilo para el contador de comentarios */
+.comments_counter {
+  color: #212529;
+  margin-left: 0.25rem;
+}
